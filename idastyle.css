@@ -1,0 +1,810 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.logo {
+  max-width: 20%;
+}
+.nav {
+  display: inline-flex;
+  position: absolute;
+  color: black;
+  left: 25%;
+  width: fit-content;
+  gap: 50px;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.joinNaw {
+  position: absolute;
+  left: calc(100% - 13%);
+  max-width: fit-content;
+  z-index: 2;
+  cursor: pointer;
+}
+button {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  z-index: 4;
+  gap: 10px;
+  background-color: rgba(0, 29, 85, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.mainbody {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.rectangle {
+  position: absolute;
+  width: 35vw;
+  height: 860px;
+  top: 0;
+  left: calc(100% - 30%);
+  overflow-x: hidden;
+  background-color: rgba(0, 194, 255, 0.18);
+}
+.welcome {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  fill-opacity: left;
+  top: 100px;
+  line-height: 3rem;
+}
+.welcome #sizes {
+  font-weight: 510;
+  font-family: sans-serif;
+}
+
+.imageDiv img {
+  display: flex;
+  width: 40vw;
+  margin-top: 20px;
+}
+.welcome button {
+  margin-top: 1rem;
+}
+
+.why {
+  display: flex;
+  position: relative;
+  left: 150px;
+  align-items: center;
+}
+.why_text {
+  max-width: 560px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+  left: 30px;
+}
+.why_text a {
+  color: blue;
+}
+.container {
+  background-image: url("./images/abstract-dna-molecules-structure-science-technology-background-illustration-vector-119136443\ 1.png");
+  display: flex;
+  height: 736px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  background-size: cover;
+}
+
+.ict_info {
+  text-align: center;
+  max-width: 50vw;
+  padding: 100px;
+}
+.contents {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+.fstdiv {
+  padding: 20px;
+  width: 25%;
+  height: 200px;
+  background-color: rgba(249, 249, 249, 1);
+}
+.shap {
+  background-color: rgba(51, 178, 7, 0.15);
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 20px;
+}
+.benefits {
+  text-align: center;
+  position: relative;
+  top: 1px;
+  background-color: rgba(0, 194, 255, 0.56);
+  color: rgba(249, 249, 249, 1);
+  padding: 60px 0;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+/* //////////////////// after beneficiaries */
+
+.money {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.transfer {
+  max-width: calc(100% - 40%);
+  line-height: 1.5rem;
+}
+.transfer a {
+  color: blue;
+  font-weight: 900;
+}
+
+.csvg img {
+  max-width: 150px;
+}
+
+/* ////////////////// end of on other */
+
+.ikigega {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.smart_content {
+  max-width: calc(100% - 40%);
+  line-height: 1.5rem;
+  text-align: end;
+}
+
+.smart_content a {
+  color: blue;
+  font-weight: 900;
+}
+
+/* ////////////// end of an other */
+
+.go {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ida-text {
+  max-width: calc(100% - 40%);
+  line-height: 1.5rem;
+}
+.ida-text a {
+  color: blue;
+  font-weight: 900;
+}
+
+.idago_image img {
+  max-width: 150px;
+}
+
+/* /////////////////// end of an other div */
+
+.provided_info {
+  align-items: center;
+  display: flex;
+}
+.giramata {
+  background-color: #cccccc;
+  max-width: calc(100% - 50%);
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 16px;
+}
+
+.gira_text {
+  margin-left: 20px;
+}
+
+.gira_image img {
+  max-width: 100px;
+}
+
+/* /////////// End of giramaters div */
+
+.giramata1 {
+  background-color: #cccccc;
+  max-width: calc(100% - 50%);
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 16px;
+}
+.gira1_image img {
+  max-width: 100px;
+}
+.gira1_text {
+  margin-left: 20px;
+}
+
+/* ///////////// creation of footer */
+.footer {
+  margin: 50px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.products h4 {
+  font-weight: 700;
+  line-height: 6px;
+  padding: 15px 0;
+}
+.products ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Company h4 {
+  font-weight: 700;
+  line-height: 6px;
+  padding: 15px 0;
+}
+.Company ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.legal h4 {
+  font-weight: 700;
+  line-height: 6px;
+  padding: 15px 0;
+}
+.legal ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ///////  editing quick links */
+
+.quick_browser {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.fb img {
+  max-width: 20px;
+}
+.tt img {
+  max-width: 20px;
+}
+.ig img {
+  max-width: 20px;
+}
+
+/* /////////// final link */
+
+.final_link {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.final_link a {
+  color: blue;
+  text-align: center;
+}
+
+/* ///////////////// IT Services Page */
+
+.first_div {
+  display: flex;
+  background-image: url("./images/5486501 1.png");
+  background-size: cover;
+  width: 1440px;
+  height: 836px;
+  top: 2px;
+}
+.all_dev {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.dev_team {
+  position: absolute;
+  width: 743px;
+  height: 286px;
+  top: 249px;
+  left: 532px;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.hire_us {
+  position: absolute;
+  width: 149px;
+  height: 51px;
+  top: 400px;
+  left: 300px;
+  padding: 15px, 20px, 15px, 20px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+/* //////////////prodct offering */
+
+.heading {
+  text-align: center;
+  padding: 25px 0;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.product_offering {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+#icon {
+  max-width: 100px;
+  height: 10px;
+  position: absolute;
+}
+.system_text h2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  left: 50px;
+}
+
+.system {
+  padding: 25px;
+  display: flex;
+  width: 582px;
+  height: 500px;
+  top: 992px;
+  left: 78px;
+  background-color: rgba(235, 235, 235, 1);
+  border-radius: 24px;
+}
+.system_text h2 {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  justify-content: center;
+}
+.system_text p {
+  font-family: sans-serif;
+  margin-top: 40px;
+  font-size: 26px;
+  line-height: 40px;
+  text-align: center;
+}
+.database {
+  padding: 25px;
+  display: flex;
+  width: 582px;
+  height: 500px;
+  top: 992px;
+  left: 78px;
+  background-color: rgba(235, 235, 235, 1);
+  border-radius: 24px;
+}
+.database_text h2 {
+  display: flex;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  left: 50px;
+  justify-content: center;
+}
+.database_text p {
+  font-family: sans-serif;
+  margin-top: 40px;
+  font-size: 26px;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* //////////// programming division */
+
+.containe2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.programming {
+  display: flex;
+  margin: 50px;
+  padding: 25px;
+  display: flex;
+  width: 582px;
+  height: 500px;
+  top: 992px;
+  left: 78px;
+  background-color: rgba(235, 235, 235, 1);
+  border-radius: 24px;
+}
+.programming h2 {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  justify-content: center;
+}
+.programming p {
+  font-family: sans-serif;
+  margin-top: 20px;
+  font-size: 26px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.programming2 {
+  display: flex;
+  margin: 50px;
+  padding: 25px;
+  display: flex;
+  width: 582px;
+  height: 500px;
+  top: 992px;
+  left: 78px;
+  background-color: rgba(235, 235, 235, 1);
+  border-radius: 24px;
+}
+.programming2 h2 {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 43px;
+  justify-content: center;
+}
+.programming2 p {
+  font-family: sans-serif;
+  margin-top: 20px;
+  font-size: 26px;
+  line-height: 40px;
+  text-align: center;
+}
+
+#side-shape {
+  min-width: 781px;
+  height: 861px;
+  position: absolute;
+  z-index: 0;
+  background-color: rgba(0, 194, 255, 0.18);
+  top: 0px;
+  max-width: 30%;
+  clip-path: polygon(0% 0%, 100% 0%, 80% 70%, 0% 100%);
+}
+
+/* ////////////// girls in coding path */
+
+.girls {
+  display: flex;
+  justify-content: space-between;
+}
+.girls_text h2 {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 563px;
+  height: 69px;
+  top: 255px;
+  left: 100px;
+}
+.girls_text p {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 498px;
+  height: 155px;
+  top: 360px;
+  left: 100px;
+}
+.grp img {
+  position: absolute;
+  width: 91.71px;
+  height: 92.71px;
+  top: 145px;
+  left: 923px;
+  z-index: 1;
+}
+#grp img {
+  position: absolute;
+  width: 91.71px;
+  height: 92.71px;
+  top: 244px;
+  left: 1255px;
+  z-index: 1;
+}
+.girls_img #fst {
+  position: absolute;
+  width: 451px;
+  height: 451px;
+  top: 191px;
+  left: 850px;
+  border-radius: 49px;
+}
+.girls_img #snd {
+  position: absolute;
+  width: 314px;
+  height: 307px;
+  top: 408px;
+  left: 764px;
+  border-radius: 39px;
+}
+#elps img {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 562px;
+  left: 734px;
+  border: 20px;
+  z-index: 1;
+}
+
+.program_pps {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 756px;
+  height: 163px;
+  top: 500px;
+  left: 500px;
+}
+.program_pps h2 {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 82px;
+  text-align: center;
+  width: 756px;
+  height: 83px;
+  top: -7.5px;
+}
+
+.program_pps p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 756px;
+  height: 99px;
+  top: 56.5px;
+}
+#training_program h2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 63px;
+  text-align: center;
+  width: 381px;
+  height: 63px;
+  top: 900px;
+  left: 100px;
+}
+
+/* ////// first */
+
+.first_taraining_div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 650px;
+}
+.first_tarining_div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.accademy {
+  display: flex;
+  flex-direction: column;
+  max-width: 376px;
+  background-color: rgba(231, 229, 229, 1);
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  text-align: center;
+}
+.accademy img {
+  max-width: 376px;
+}
+.display img {
+  width: 40px;
+  height: 40px;
+  padding: 5px, 3.33px, 5px, 3.33px;
+}
+
+.display {
+  position: relative;
+  left: 160px;
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 194, 255, 0.9);
+  border-radius: 50%;
+}
+
+/* ///////////////// OUR girls */
+
+.ourgirls {
+  display: flex;
+  width: fit-content;
+}
+.ourgirls h2 {
+  font-family: sans-serif;
+  position: relative;
+  font-size: 44px;
+  height: 63px;
+  top: 100px;
+  left: 97px;
+  padding: 50px 0;
+}
+.linca {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  width: 813px;
+  height: 321px;
+  border-radius: 32px;
+  background-color: rgba(249, 249, 249, 1);
+}
+.linca p {
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  width: fit-content;
+  height: 108px;
+  margin: 30px;
+}
+.linca h2 {
+  margin-left: 30px;
+}
+
+#linca img {
+  max-width: 200px;
+  margin: 30px;
+}
+
+/* ////////// gwiza */
+.gwiza {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 813px;
+  height: 321px;
+  left: 485px;
+  border-radius: 32px;
+  background-color: rgba(249, 249, 249, 1);
+}
+.gwiza_text h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.g_text {
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: left;
+  padding: 50px;
+}
+#gwiza img {
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  border-radius: 89px;
+}
+
+/* /////// junior developers */
+
+.girls_img #fst2 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 191px;
+  left: 850px;
+  border-radius: 50%;
+}
+.girls_img #snd2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 200px;
+  left: 680px;
+  border-radius: 50%;
+}
+
+#elps2 img {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 420px;
+  left: 734px;
+  border: 20px;
+  z-index: 1;
+}
+.grp1 img {
+  position: absolute;
+  width: 91.71px;
+  height: 92.71px;
+  top: 155px;
+  left: 800px;
+  z-index: 1;
+}
+
+#grp2 img {
+  position: absolute;
+  width: 91.71px;
+  height: 92.71px;
+  top: 144px;
+  left: 1100px;
+  z-index: 1;
+}
