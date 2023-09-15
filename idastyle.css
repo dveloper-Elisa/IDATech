@@ -25,7 +25,6 @@ body {
   left: 25%;
   width: fit-content;
   gap: 50px;
-  z-index: -1;
 }
 
 a {
